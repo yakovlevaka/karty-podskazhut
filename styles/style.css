@@ -54,7 +54,7 @@ figure {
   margin-block-end:40px;
 }
 .content__title {
-  /* font-size:30px; */
+  font-size:30px;
   margin-block-start: 7%;
   margin-block-end:2.5%;
 }
@@ -187,6 +187,7 @@ a {
 .header__menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-top: currentColor 1px solid;
   border-bottom: currentColor 1px solid;
 }
@@ -206,7 +207,8 @@ a {
   cursor: pointer;
   background-color: transparent;
   border:none;
-  font-size:inherit;
+  font-size:18px;
+  line-height:1.04;
 }
 .header__theme-button_is-active {
   font-weight:700;
@@ -223,9 +225,7 @@ a {
   z-index:-1;
   background-color: var(--accent-color);
 }
-.header__logo {
-  object-position: center;
-}
+
 .theme_dark .header__theme-button_is-active::after {
   content:'';
   position:absolute;
