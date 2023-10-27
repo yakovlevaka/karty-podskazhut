@@ -59,7 +59,8 @@ figure {
   margin-block-end:2.5%;
 }
 .content__text-block {
-  font-size:14px;
+  font-size:18px;
+  line-height:1.17;
 }
 .content__text-block .content__paragraph:not(:last-child) {
   margin-block-end:1.5em;
